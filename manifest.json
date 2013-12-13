@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Disable Sheffield Carousel",
+  "description": "Disables the University of Sheffield homepage image carousel",
+  "version": "1.0",
+
+  "content_scripts": [{
+    "matches": ["http://www.sheffield.ac.uk/",
+                "https://www.sheffield.ac.uk/",
+                "http://www.shef.ac.uk/",
+                "https://www.shef.ac.uk/"],
+   "js": ["disable-sheffield-carousel.user.js"]
+   }]
+}
