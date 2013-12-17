@@ -6,10 +6,10 @@
   "version": "1.0",
 
   "content_scripts": [{
-    "matches": ["http://www.sheffield.ac.uk/",
-                "https://www.sheffield.ac.uk/",
-                "http://www.shef.ac.uk/",
-                "https://www.shef.ac.uk/"],
+    "matches": ["http://www.sheffield.ac.uk/*",
+                "https://www.sheffield.ac.uk/*",
+                "http://www.shef.ac.uk/*",
+                "https://www.shef.ac.uk/*"],
    "js": ["disable-sheffield-carousel.user.js"]
    }]
 }
