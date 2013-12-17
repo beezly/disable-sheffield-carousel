@@ -3,7 +3,7 @@
 
   "name": "Disable Sheffield Carousel",
   "description": "Disables the University of Sheffield homepage image carousel",
-  "version": "1.0",
+  "version": "1.1",
 
   "content_scripts": [{
     "matches": ["http://www.sheffield.ac.uk/*",
